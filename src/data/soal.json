@@ -1,0 +1,104 @@
+{
+    "soal": [
+        {
+            "id": 1,
+            "soal": "What is JavaScript?",
+            "jawaban": "A programming language for web development"
+        },
+        {
+            "id": 2,
+            "soal": "What is React?",
+            "jawaban": "A JavaScript library for building user interfaces"
+        },
+        {
+            "id": 3,
+            "soal": "What is JSX?",
+            "jawaban": "A syntax extension for JavaScript that looks like HTML"
+        },
+        {
+            "id": 4,
+            "soal": "What does useState do in React?",
+            "jawaban": "It adds state to functional components"
+        },
+        {
+            "id": 5,
+            "soal": "What are props in React?",
+            "jawaban": "Inputs to a React component passed from parent"
+        },
+        {
+            "id": 6,
+            "soal": "What is the purpose of useEffect in React?",
+            "jawaban": "To handle side effects in functional components"
+        },
+        {
+            "id": 7,
+            "soal": "What is a component in React?",
+            "jawaban": "A reusable piece of UI"
+        },
+        {
+            "id": 8,
+            "soal": "What is the virtual DOM?",
+            "jawaban": "A lightweight copy of the real DOM used by React"
+        },
+        {
+            "id": 9,
+            "soal": "What is an event handler in JavaScript?",
+            "jawaban": "A function that runs when an event occurs"
+        },
+        {
+            "id": 10,
+            "soal": "What is the difference between let and const in JavaScript?",
+            "jawaban": "'let' allows reassignment, 'const' does not"
+        },
+        {
+            "id": 11,
+            "soal": "How do you import a module in JavaScript?",
+            "jawaban": "Using the import statement"
+        },
+        {
+            "id": 12,
+            "soal": "What is a hook in React?",
+            "jawaban": "A function that lets you use state and other features in functional components"
+        },
+        {
+            "id": 13,
+            "soal": "What is the default value of useState?",
+            "jawaban": "The value passed when calling useState()"
+        },
+        {
+            "id": 14,
+            "soal": "What is the return type of useState?",
+            "jawaban": "An array with current state and a function to update it"
+        },
+        {
+            "id": 15,
+            "soal": "What is the purpose of keys in React lists?",
+            "jawaban": "To help React identify which items changed"
+        },
+        {
+            "id": 16,
+            "soal": "What is conditional rendering in React?",
+            "jawaban": "Rendering UI elements based on conditions"
+        },
+        {
+            "id": 17,
+            "soal": "What is a controlled component in React?",
+            "jawaban": "An input element controlled by React state"
+        },
+        {
+            "id": 18,
+            "soal": "What is the difference between state and props in React?",
+            "jawaban": "State is internal, props are external inputs"
+        },
+        {
+            "id": 19,
+            "soal": "How do you update the state in React?",
+            "jawaban": "Using the state updater function returned by useState"
+        },
+        {
+            "id": 20,
+            "soal": "Can you use useState in class components?",
+            "jawaban": "No, useState is only for functional components"
+        }
+  ]
+}
