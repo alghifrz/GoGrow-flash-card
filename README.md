@@ -1,12 +1,46 @@
-# React + Vite
+# GoGrow Flash Card
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+GoGrow Flash Card was built with JavaScript and Tailwind CSS using the Vite React framework. The cards display questions and answers to introduce basic concepts like JavaScript, React, and more.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Show or hide questions and answers when the button is clicked
+- Next and Previous buttons for navigating through questions
+- Progress bar to indicate the current question number
 
-## Expanding the ESLint configuration
+## 🖼️ Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![GoGrow Flash Card Preview](public/1.png)
+![GoGrow Flash Card Preview](public/2.png)
+
+## 🛠️ Technologies Used
+
+- JavaScript
+- Tailwind CSS
+- Vite
+- React  
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+```bash	
+git clone https://github.com/alghifrz/GoGrow-flash-card.git
+cd GoGrow-flash-card
+```	
+### 2. Install Dependencies
+```bash
+npm install
+```
+### 3. Run the Application
+```bash
+npm run dev
+```
+
+## 📝 License
+
+This project is licensed under the [MIT License](https://github.com/alghifrz/GoGrow-flash-card/blob/main/LICENSE).
+
+## Made with ❤️ by Alghifari Rasyid Zola
+```vbnet
+Let me know if you want this localized to Indonesian again or want to add preview images or video demos!
+```
