@@ -1,5 +1,5 @@
 import React from 'react';
-import data from '../data/soal.json';
+import data from '../data/questions-list.json';
 import { useState } from 'react';
 import Bar from './Bar.jsx';
 
@@ -7,10 +7,10 @@ function Card(){
 
     const [showAnswer, setShowAnswer] = useState(false);
     const [currentIndex, setCurrentIndex] = useState(0);
-    const soal = data.soal;
+    const questions = data.questions;
     
     const handleNext = () => {
-        if (currentIndex < soal.length - 1) {
+        if (currentIndex < questions.length - 1) {
             setCurrentIndex(currentIndex + 1);
             setShowAnswer(false);
         }
@@ -36,11 +36,11 @@ function Card(){
                 <div className="text-xl items-center bg-gray-100 rounded-lg w-full flex justify-center text-center h-full">
                     {!showAnswer ? (
                         <span className="text-3xl font-bold px-40">
-                            {soal[currentIndex].soal}
+                            {questions[currentIndex].question}
                         </span>
                     ) : (
                         <span className="px-40">
-                            {soal[currentIndex].jawaban}
+                            {questions[currentIndex].answear}
                         </span>
                     )}
                 </div>
@@ -64,7 +64,7 @@ function Card(){
                         )}
                     </div>
                     <div>
-                        {currentIndex < soal.length - 1 ? (
+                        {currentIndex < questions.length - 1 ? (
                             <button className="cursor-pointer text-gray-700 hover:text-black" onClick={handleNext}>Next &gt;</button>
                         ) : (
                             <button className="cursor-not-allowed text-gray-400" disabled>Next &gt;</button>

@@ -1,8 +1,8 @@
 import React from 'react';
-import data from '../data/soal.json';
+import data from '../data/questions-list.json';
 
 function Bar ({number}) {
-    const count = data.soal.length;
+    const count = data.questions.length;
     const percentage = (number / count) * 100;
 
     return (
